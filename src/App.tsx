@@ -19,6 +19,10 @@ export function App() {
     [paginatedTransactions, transactionsByEmployee]
   )
 
+  if (transactions) {
+    console.log(paginatedTransactions?.nextPage)
+  }
+
   const loadAllTransactions = useCallback(async () => {
     setIsLoading(true)
     transactionsByEmployeeUtils.invalidateData()
@@ -74,8 +78,7 @@ export function App() {
 
         <div className="RampGrid">
           <Transactions transactions={transactions} />
-
-          {transactions !== null && (
+          {paginatedTransactions !== null && paginatedTransactions.nextPage !== null && (
             <button
               className="RampButton"
               disabled={paginatedTransactionsUtils.loading}
