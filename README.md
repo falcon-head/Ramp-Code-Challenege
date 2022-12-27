@@ -68,7 +68,7 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 ---
 
-<!-- # Bug 1: Select dropdown doesn't scroll with rest of the page --- Fixed
+# Bug 1: Select dropdown doesn't scroll with rest of the page --- Fixed
 
 **How to reproduce:**
 
@@ -78,9 +78,9 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Expected:** Options dropdown moves with its parent input as you scroll the page
 
-**Actual:** Options dropdown stays in the same position as you scroll the page, losing the reference to the select input -->
+**Actual:** Options dropdown stays in the same position as you scroll the page, losing the reference to the select input
 
-<!-- # Bug 2: Approve checkbox not working
+# Bug 2: Approve checkbox not working
 
 **How to reproduce:**
 
@@ -88,9 +88,9 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Expected:** Clicking the checkbox toggles its value
 
-**Actual:** Nothing happens -->
+**Actual:** Nothing happens
 
-<!-- # Bug 3: Cannot select _All Employees_ after selecting an employee --- Fixed
+# Bug 3: Cannot select _All Employees_ after selecting an employee --- Fixed
 
 **How to reproduce:**
 
@@ -101,7 +101,7 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Expected:** All transactions are loaded
 
-**Actual:** The page crashes -->
+**Actual:** The page crashes
 
 # Bug 4: Clicking on View More button not showing correct data
 
@@ -114,7 +114,7 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** New transactions replace initial transactions, losing initial transactions
 
-<!-- # Bug 5: Employees filter not available during loading more data
+# Bug 5: Employees filter not available during loading more data
 
 _This bug has 2 wrong behaviors that will be fixed with the same solution_
 
@@ -144,7 +144,7 @@ _This bug has 2 wrong behaviors that will be fixed with the same solution_
 
 <!-- # Bug 6: View more button not working as expected
 
-_This bug has 2 wrong behaviors that can be fixed with the same solution. It's acceptable to fix with separate solutions as well._ -->
+_This bug has 2 wrong behaviors that can be fixed with the same solution. It's acceptable to fix with separate solutions as well._
 
 ##### Part 1
 
